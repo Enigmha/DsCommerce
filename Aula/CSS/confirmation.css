@@ -1,0 +1,21 @@
+@import url(styles.css);
+
+#cart-conmfirmation-section{
+    padding: 20px 0;
+}
+
+.dsc-confirmation-menssage{
+    font-weight: 700px;
+    font-size: 16px;
+    color: var(--dsc-color-font-primary);
+    text-align: center;
+}
+
+
+@media (min-width: 576px){
+    .dsc-confirmation-menssage {
+        font-size: 24px;
+        text-align: left;
+    }
+    
+}
