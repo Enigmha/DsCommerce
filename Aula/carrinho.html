@@ -10,15 +10,22 @@
     <link rel="stylesheet" href="CSS/cart.css" />
   </head>
   <body>
-    <header>
+    <header class="dcs-header-client">
       <nav class="dsc-container">
         <h1>DsCommerce</h1>
-        <a href="#">Entrar</a>
+        <div class="dsc-navbar-right">
+          <div class="dsc-menu-item-container">
+            <div class="dsc-menu-item">
+              <img src="images/cart.svg" alt="Carrinho de compras" />
+            </div>
+          </div>
+          <a href="#">Entrar</a>
+        </div>
       </nav>
     </header>
     <main>
       <section id="cart-container-section" class="dsc-container">
-        <div class="dsc-card ">
+        <div class="dsc-card">
           <div class="dsc-cart-item-container dsc-line-bottom">
             <div class="dsc-cart-item-left">
               <img src="images/computer.png" alt="Computador" />
@@ -31,9 +38,7 @@
                 </div>
               </div>
             </div>
-            <div class="dsc-cart-item-right">
-              R$ 5000,00
-            </div>
+            <div class="dsc-cart-item-right">R$ 5000,00</div>
           </div>
           <div class="dsc-cart-item-container dsc-line-bottom">
             <div class="dsc-cart-item-left">
@@ -47,22 +52,16 @@
                 </div>
               </div>
             </div>
-            <div class="dsc-cart-item-right">
-              R$ 5000,00
-            </div>
+            <div class="dsc-cart-item-right">R$ 5000,00</div>
           </div>
           <div class="dsc-cart-total-container">
             <h3>R$ 15000,00</h3>
           </div>
         </div>
-        </div>
+
         <div class="dsc-btn-page-container">
-            <div class="dsc-btn dsc-btn-blue">
-                Finalizar Pedido
-            </div>
-            <div class="dsc-btn dsc-btn-white">
-                Continuar comprando
-            </div>
+          <div class="dsc-btn dsc-btn-blue">Finalizar Pedido</div>
+          <div class="dsc-btn dsc-btn-white">Continuar comprando</div>
         </div>
       </section>
     </main>
